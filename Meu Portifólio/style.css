@@ -89,13 +89,15 @@ text-align: justify;
 
 .botao1 {
 
-background-color: #000000;
-color: aliceblue;
+background-color: #3a2337;
+color: rgb(255, 255, 255);
 width: 500px;
 height: 80px;
 text-align: center;
+display: flex;
+justify-content: center;
 align-items: center;
-border: 2px solid black;
+border: 2px solid rgb(250, 208, 232);
 border-radius: 50px;
 font: size 36px;
 padding: 15px 0;
@@ -108,16 +110,204 @@ overflow: hidden;
 
 }
 
-.botao1 ::before {
+.botao1::before {
 
-content: "" ;
+content: "";
 position: absolute;
 top: 0;
 left: -100%;
 width: 100%;
 height: 100%;
-background: linear-gradient( 45 deg, transparent black);
+background: linear-gradient(45deg, transparent, pink);
 transition: 0.5s;
-
+}
+.botao1:hover::before {
+    left: 100%;
+}
+.botao1 i {
+     position: absolute;
+     left:50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 60px;
 
 }
+
+.botao2 {
+
+    background-color: #3a2337;
+    color: #0077b5
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(250, 208, 232);
+    border-radius: 50px;
+    font: size 36px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    
+    }
+    
+    .botao2::before {
+    
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, pink);
+    transition: 0.5s;
+    }
+    .botao2:hover::before {
+        left: 100%;
+    }
+    .botao2 i {
+         position: absolute;
+         left:50%;
+         top: 50%;
+         transform: translate(-50%, -50%);
+         font-size: 60px;
+    }
+    
+    .botao3 {
+
+        background-color: #3a2337;
+        color: rgb(210, 25, 198);
+        width: 500px;
+        height: 80px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(250, 208, 232);
+        border-radius: 50px;
+        font: size 36px;
+        padding: 15px 0;
+        text-decoration: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        position: relative;
+        overflow: hidden;
+        
+        }
+        
+        .botao3::before {
+        
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, transparent, pink);
+        transition: 0.5s;
+        }
+        .botao3:hover::before {
+            left: 100%;
+        }
+        .botao3 i {
+             position: absolute;
+             left:50%;
+             top: 50%;
+             transform: translate(-50%, -50%);
+             font-size: 60px;
+        }
+
+        .botao4 {
+
+            background-color: #3a2337;
+            color: rgb(28, 139, 76);
+            width: 500px;
+            height: 80px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid rgb(250, 208, 232);
+            border-radius: 50px;
+            font: size 36px;
+            padding: 15px 0;
+            text-decoration: none;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+            
+            }
+            
+            .botao4::before {
+            
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, pink);
+            transition: 0.5s;
+            }
+            .botao4:hover::before {
+                left: 100%;
+            }
+            .botao4 i {
+                 position: absolute;
+                 left:50%;
+                 top: 50%;
+                 transform: translate(-50%, -50%);
+                 font-size: 60px;
+            }
+            .botao5 {
+
+                background-color: #3a2337;
+                color: rgb(255, 194, 235);
+                width: 500px;
+                height: 80px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid rgb(250, 208, 232);
+                border-radius: 50px;
+                font: size 36px;
+                padding: 15px 0;
+                text-decoration: none;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                position: relative;
+                overflow: hidden;
+                
+                }
+                
+                .botao5::before {
+                
+                content: "";
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(45deg, transparent, rgb(228, 10, 141));
+                transition: 0.5s;
+                }
+                .botao5:hover::before {
+                    left: 100%;
+                }
+                .botao5 i {
+                     position: absolute;
+                     left:50%;
+                     top: 50%;
+                     transform: translate(-50%, -50%);
+                     font-size: 60px;
+                }
