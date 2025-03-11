@@ -8,7 +8,7 @@ padding: 0;
 body {
 
 height: 100vh;
-background-color: rgb(255, 255, 255);
+background-color: rgba(253, 193, 223, 0.95);
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -90,7 +90,7 @@ text-align: justify;
 .botao1 {
 
 background-color: #3a2337;
-color: rgb(255, 255, 255);
+color: rgb(246, 244, 244);
 width: 500px;
 height: 80px;
 text-align: center;
@@ -118,7 +118,7 @@ top: 0;
 left: -100%;
 width: 100%;
 height: 100%;
-background: linear-gradient(45deg, transparent, pink);
+background: linear-gradient(45deg, transparent, rgb(119, 255, 237));
 transition: 0.5s;
 }
 .botao1:hover::before {
@@ -133,10 +133,14 @@ transition: 0.5s;
 
 }
 
+/* fim do botao1 */
+
+/* inicio do botao2 */
+
 .botao2 {
 
     background-color: #3a2337;
-    color: #0077b5
+    color: #0077b5;
     width: 500px;
     height: 80px;
     text-align: center;
@@ -164,7 +168,7 @@ transition: 0.5s;
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, transparent, pink);
+    background: linear-gradient(45deg, transparent, #0077b5);
     transition: 0.5s;
     }
     .botao2:hover::before {
@@ -177,11 +181,14 @@ transition: 0.5s;
          transform: translate(-50%, -50%);
          font-size: 60px;
     }
+    /* fim do botao2 */
     
+          /* inicio do botao3 */
+
     .botao3 {
 
         background-color: #3a2337;
-        color: rgb(210, 25, 198);
+        color: rgb(210, 53, 25);
         width: 500px;
         height: 80px;
         text-align: center;
@@ -209,7 +216,7 @@ transition: 0.5s;
         left: -100%;
         width: 100%;
         height: 100%;
-        background: linear-gradient(45deg, transparent, pink);
+        background: linear-gradient(45deg, transparent, rgb(237, 129, 92));
         transition: 0.5s;
         }
         .botao3:hover::before {
@@ -222,6 +229,9 @@ transition: 0.5s;
              transform: translate(-50%, -50%);
              font-size: 60px;
         }
+              /* fim do botao3 */
+
+               /* inicio do botao4 */
 
         .botao4 {
 
@@ -254,7 +264,7 @@ transition: 0.5s;
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(45deg, transparent, pink);
+            background: linear-gradient(45deg, transparent, rgb(28, 139, 76));
             transition: 0.5s;
             }
             .botao4:hover::before {
@@ -267,6 +277,10 @@ transition: 0.5s;
                  transform: translate(-50%, -50%);
                  font-size: 60px;
             }
+            /* fim do botao4 */
+
+                /* inicio do botao5 */
+
             .botao5 {
 
                 background-color: #3a2337;
@@ -298,7 +312,7 @@ transition: 0.5s;
                 left: -100%;
                 width: 100%;
                 height: 100%;
-                background: linear-gradient(45deg, transparent, rgb(228, 10, 141));
+                background: linear-gradient(45deg, transparent, rgb(237, 15, 137));
                 transition: 0.5s;
                 }
                 .botao5:hover::before {
@@ -311,3 +325,70 @@ transition: 0.5s;
                      transform: translate(-50%, -50%);
                      font-size: 60px;
                 }
+                /* fim do botao5 */
+
+                .imagem {
+
+                    max-width:100%;
+                    width:650px;
+                    height: 650px;
+                    text-align: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 20px rgba(245, 245, 245, 0.95);
+                    transition: transform 0.3s ease-in-out;
+                    position: relative;
+                    overflow: hidden;
+                    order: 1;
+                    margin-bottom: 80px;
+
+                }
+
+                .imagem img {   
+
+                 object-fit: cover;
+                 display: block;
+                 width: 100%;
+                 height: 100%;
+
+                }
+
+                .imagem::before,
+                .imagem::after { 
+
+                content: "";
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                border: 2px solid black;
+                background-color: transparent;
+
+                }
+
+                .imagem::before{
+
+                bottom: 0;
+                right: 0;
+                border-bottom-right-radius: 10px;
+                border-width: 2px 0 0 2px;
+
+                }
+
+                .imagem::after{ 
+
+                bottom: 0;
+                right: 0;
+                border-bottom-right-radius: 10px;
+                border-width: 0 2px 2px 0;
+
+
+                }
+
+                .imagem:hover{
+
+                transform: scale(1.1);
+
+
+                }  
+                
+                
