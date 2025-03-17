@@ -287,6 +287,7 @@ transition: 0.5s;
                 color: rgb(255, 194, 235);
                 width: 500px;
                 height: 80px;
+                margin-bottom: 10px;
                 text-align: center;
                 display: flex;
                 justify-content: center;
@@ -391,4 +392,27 @@ transition: 0.5s;
 
                 }  
                 
-                
+                .rodape {
+
+                 position: fixed;
+                 bottom: 0;
+                 left: 0;
+                 width: 100%;
+                 color:white;
+                 background-color: #ec9fd429;
+                 display:flex;
+                 align-items: center;
+                 justify-content: center;
+                 font-family: 'Times New Roman', Times, serif; 
+                 font-size: 18px;
+                 font-weight: 400px;
+                 padding: 10px;
+
+                              }
+
+            .rodape a:hover{
+                 color: #000000;
+
+
+                   }
+
